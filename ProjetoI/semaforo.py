@@ -1,10 +1,22 @@
-#UFBA - Universidade Federal da Bahia
-#Semestre 2024.1
-#MATA58 - T02 - Sistemas Operacionais
-#Docente: Robespierre Dantas
-#Discente: Paloma Brito
+# UFBA - Universidade Federal da Bahia
+# Semestre 2024.1
+# MATA58 - T02 - Sistemas Operacionais
+# Docente: Robespierre Dantas
+# Discente: Paloma Brito
 
-#Projeto I - Jogo com Condições de Corrida
+# Projeto I - Jogo com Condições de Corrida
+
+# Python: 3.12.5
+
+# INSTRUÇÕES:
+# o jogo possui importação do arquivo SemaforoClasse.py, por favor manter na mesma página.
+# A verão de Python utilizada é a 3.12.5
+
+# Através de uma IDE, acesse a pasta que contém os arquivos no explorar, baixe a extensão Python e clique no botão de 'Run Code';
+# No terminal, acesse o local do arquivo onde encontra-se a pasta, por exemplo se os arquivos estiverem na pasta ProjetoI, utilize o comando no terminal (p/ windows): cd C:Users/aluno1/Documents/Semestre2024.1/SO/ProjetoI 
+# clique em Enter, em seguida digite python semaforo.py ou python mutex.py e clique em Enter.
+
+# DESCRIÇÃO
 
 # O jogo escolhido para ser abordado nessa temática, foi um jogo simples, básico e conhecido: O Jogo da Memória.
 # Ainda por ser conhecido, penso que não seja necessário o alongamento dessa explicação, contudo, o jogo
@@ -25,7 +37,6 @@
 
 # Escolhi para esse jogo utilizar Mutex e "Semaforo", porém como não podemos usar bibliotecas prontas, resolvi implementar o semaforo
 # não afirmo que é 100%, mas sim uma tentativa de aproximação melhor explicada em video.
-
 
 import random
 import threading

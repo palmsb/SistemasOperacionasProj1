@@ -4,9 +4,19 @@
 # Docente: Robespierre Dantas
 # Discente: Paloma Brito
 
+# Projeto I - Jogo com Condições de Corrida
+
 # Python: 3.12.5
 
-# Projeto I - Jogo com Condições de Corrida
+# INSTRUÇÕES:
+# o jogo possui importação do arquivo SemaforoClasse.py, por favor manter na mesma página.
+# A verão de Python utilizada é a 3.12.5
+
+# Através de uma IDE, acesse a pasta que contém os arquivos no explorar, baixe a extensão Python e clique no botão de 'Run Code';
+# No terminal, acesse o local do arquivo onde encontra-se a pasta, por EXEMPLO se os arquivos estiverem na pasta ProjetoI, utilize o comando no terminal (p/ windows): cd C:Users/aluno1/Documents/Semestre2024.1/SO/ProjetoI 
+# clique em Enter, em seguida digite python semaforo.py ou python mutex.py e clique em Enter.
+
+# DESCRIÇÃO
 
 # O jogo escolhido para ser abordado nessa temática, foi um jogo simples, básico e conhecido: O Jogo da Memória.
 # Ainda por ser conhecido, penso que não seja necessário o alongamento dessa explicação, contudo, o jogo
@@ -19,18 +29,14 @@
 
 # Qual a condição de corrida?
 
-# Primeiro: Acesso ao tabuleiro, com as operações de leitura do valor, consulta e verificação das cartas são iguais para formarem pares. 
-# São o que entendi como região critica que geram condições de corrida, e o que pode ocorrer é o acesso simultâneo pelas threads e a modificação desse tabuleiro ao mesmo tempo.
-
-# Segundo: temos os turnos, e fazer esse controle é essencial para garantir que somente um jogador faça uma jogada por vez, sem o controle as threads 
-# poderiam se comportar, agir, como se fosse o turno de cada uma, ao mesmo tempo.
-
+# Primeiro: Acesso ao tabuleiro, com as operações de leitura do valor, consulta e verificação das cartas são iguais para formarem pares.
+# Segundo: temos os turnos, e fazer esse controle é essencial para garantir que somente um jogador faça uma jogada por vez,
 
 
 # Quais as soluções implementadas?
 
 # Escolhi para esse jogo utilizar Mutex e "Semaforo", porém como não podemos usar bibliotecas prontas, resolvi implementar o semaforo
-# não afirmo que é 100%, mas sim uma tentativa de aproximação melhor explicada em video.
+# não afirmo que é 100%, mas sim uma tentativa de aproximação melhor explicada em video.o.
 
 
 import threading
