@@ -9,7 +9,7 @@
 # Python: 3.12.5
 
 # INSTRUÇÕES:
-# o jogo possui importação do arquivo SemaforoClasse.py, por favor manter na mesma página.
+# o jogo possui importação do arquivo SemaforoClasse.py, por favor manter na mesma pasta.
 # A verão de Python utilizada é a 3.12.5
 
 # Através de uma IDE, acesse a pasta que contém os arquivos no explorar, baixe a extensão Python e clique no botão de 'Run Code';
