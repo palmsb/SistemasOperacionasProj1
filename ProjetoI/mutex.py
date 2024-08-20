@@ -24,7 +24,7 @@
 # com isso, ao achar os pares, o jogador pontua e as cartas são retiradas do tabuleiro, o jogo se encerra quando não houverem mais pares
 # e vence o jogador que tenha feito mais pares. Na implementação do código a seguir, pode-se acompanhar que haverão threads
 # responsaveis por simular os jogadores que escolhem as cartas do tabuleiro, no código foi implantado mecanismos de controle do acesso
-# ao tabuleiro e alternação de turnos para evitar as condições de corrida.
+# ao tabuleiro e alternação de turnos nas regiões criticas para evitar erros que podem ser ocasionados pelas condições de corrida.
 
 
 # Qual a condição de corrida?
